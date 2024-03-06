@@ -64,7 +64,7 @@ export default definePlugin({
                 sort = "hot";
             }
 
-            const imageUrl = await fetchReddit("tomboys", sort);
+            const imageUrl = await fetchReddit("tomboysNSFW", sort);
             return {
                 content: imageUrl || "No image found.",
             };
